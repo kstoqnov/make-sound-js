@@ -1,0 +1,29 @@
+{
+  "name": "make-sound-js",
+  "version": "1.0.0",
+  "description": "select a square and hear the sound",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kstoqnov/make-sound-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kstoqnov/make-sound-js/issues"
+  },
+  "homepage": "https://github.com/kstoqnov/make-sound-js#readme",
+  "dependencies": {
+    "tone": "^14.7.58"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.29.0"
+  }
+}

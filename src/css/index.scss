@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: teal;
+  }
+  
+  .field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    border-radius: 30px;
+    background: lightgrey;
+    height: 250px;
+    width: 250px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    &.api-image {
+      flex-direction: column;
+      padding: 1rem;
+      justify-content: space-evenly;
+      p {
+        text-align: center;
+        margin: 0;
+      }
+    }
+    &.api-text {
+      flex-direction: column;
+      text-align: justify;
+      padding: 1rem;
+      justify-content: space-evenly;
+      .api-text__title {
+        text-align: center;
+        margin: 0;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+  
+  .synthesizer .grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-gap: 10px;
+    div {
+      background: darkgray;
+      width: 100%;
+      border-radius: 12px;
+      &:hover {
+        background: lightblue;
+      }
+    }
+  }
+  
+  .one {
+    grid-column: 1;
+  }
+  
+  .two {
+    grid-column: 2;
+  }
+  
+  .three {
+    grid-column: 3;
+  }
+  
+  .four {
+    grid-column: 4;
+  }
+  
